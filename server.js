@@ -17,7 +17,7 @@ const corsOptions = {
     origin: [
         'http://localhost:5173',
         'http://localhost:5174',
-        'https://tal0311.github.io/*'
+        
         
     ],
     credentials: true
@@ -43,9 +43,9 @@ setupSocketAPI(server)
 // so when requesting http://localhost:3030/index.html/account/123 it will still respond with
 // our SPA (single page app) (the index.html file) and allow vue/react-router to take it from there
 app.get('/**', (req, res) => {
-    // res.sendFile(path.resolve('public/index.html'))
+    res.sendFile(path.resolve('public/index.html'))
 
-    res.redirect('https://tal0311.github.io/accounts-keeper/')
+    // res.redirect('https://tal0311.github.io/accounts-keeper/')
 })
 
 
