@@ -17,7 +17,7 @@ const corsOptions = {
     origin: [
         'http://localhost:5173',
         'http://localhost:5174',
-        'https://tal0311.github.io/accounts-keeper/'
+        'https://tal0311.github.io/*'
         
     ],
     credentials: true
