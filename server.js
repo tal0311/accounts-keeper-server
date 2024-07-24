@@ -45,11 +45,13 @@ setupSocketAPI(server)
 app.get('/**', (req, res) => {
     res.sendFile(path.resolve('public/index.html'))
 
+    logger.info('Someone entered the site')
     // res.redirect('https://tal0311.github.io/accounts-keeper/')
 })
 
 
 import { logger } from './services/logger.service.js'
+import { log } from 'console'
 const port = process.env.PORT || 3030
 server.listen(port, () => {
     logger.info('Server is running on port: ' + port)
