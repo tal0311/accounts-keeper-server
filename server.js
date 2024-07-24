@@ -13,16 +13,23 @@ app.use(express.json())
 
 app.use(express.static(path.join(__dirname, 'public')))
 
-const corsOptions = {
-    origin: [
-        'http://localhost:5173',
-        'http://localhost:5174',
-        
-        
-    ],
-    credentials: true
+if (process.env.NODE_ENV === 'production') {
+    app.use(express.static('public'))
+} else {
+    const corsOptions = {
+        origin: [
+            'http://127.0.0.1:3000',
+            'http://localhost:3000',
+            'http://localhost:5173',
+            'http://127.0.0.1:5173',
+            'http://localhost:5174',
+            'http://127.0.0.1:5174',
+        ],
+        credentials: true,
+    }
+    app.use(cors(corsOptions))
 }
-app.use(cors(corsOptions))
+
 
 import { authRoutes } from './api/auth/auth.routes.js'
 import { userRoutes } from './api/user/user.routes.js'
