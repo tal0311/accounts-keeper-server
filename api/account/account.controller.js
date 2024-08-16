@@ -10,12 +10,8 @@ export async function getAccounts(req, res) {
     }
 
     const {loggedInUser}= req
-
-    
     const accounts = await accountService.query(filterBy, loggedInUser)
-
     res.json(accounts)
-
 
   } catch (err) {
     logger.error('Failed to get accounts', err)

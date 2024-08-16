@@ -35,9 +35,7 @@ async function query(filterBy = { txt: '', type: '' }, loggedInUser) {
             criteria.type = filterBy.type
         }
 
-        console.log('criteria:', criteria);
         const collection = await dbService.getCollection(collectionName)
-
         // getting minimal fields for the list
         var accounts = await collection.find(criteria).project({ history: false, passwordHash: false, username: false }).toArray()
         const types = accounts.reduce((acc, account) => {
@@ -58,16 +56,12 @@ async function query(filterBy = { txt: '', type: '' }, loggedInUser) {
 }
 
 async function getById(accountId) {
-    console.log('account.service.js getById accountId:', accountId);
+    
     try {
         const collection = await dbService.getCollection(collectionName)
-
         accountId = mongoId(accountId)
-
-
         const account = await collection.findOne({ _id: accountId })
         // account.createdAt = ObjectId(account._id).getTimestamp()
-
         account.password = decryptPassword(account.passwordHash)
         delete account.passwordHash
         return account
@@ -108,8 +102,8 @@ async function update(account) {
 
         account.passwordHash = encryptPassword(account.password)
         console.log('account:', account);
-        
-         
+
+
         const collection = await dbService.getCollection(collectionName)
         const accountToSave = { ...account }
         // _id field is immutable
