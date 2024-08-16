@@ -9,10 +9,10 @@ export async function getAccounts(req, res) {
       type: req.query.type || ''
     }
 
-    const {loggedinUser}= req
+    const {loggedInUser}= req
 
     
-    const accounts = await accountService.query(filterBy, loggedinUser)
+    const accounts = await accountService.query(filterBy, loggedInUser)
 
     res.json(accounts)
 
@@ -35,11 +35,11 @@ export async function getAccountById(req, res) {
 }
 
 export async function addAccount(req, res) {
-  const { loggedinUser } = req
+  const { loggedInUser } = req
 
   try {
     const account = req.body
-    account.ownerId = loggedinUser._id
+    account.ownerId = loggedInUser._id
     console.log('account:', account);
     const addedAccount = await accountService.add(account)
     res.json(account)
@@ -65,12 +65,12 @@ export async function updateAccount(req, res) {
 export async function removeAccount(req, res) {
   try {
     const accountId = req.params.id
-    const { loggedinUser } = req
+    const { loggedInUser } = req
 
     const account= await accountService.getById(accountId)
     
 
-    if (loggedinUser._id !== account.ownerId) {
+    if (loggedInUser._id !== account.ownerId) {
       return res.status(401).send('Not Authenticated')
     }
     const removedId = await accountService.remove(accountId)
@@ -82,12 +82,12 @@ export async function removeAccount(req, res) {
 }
 
 export async function addAccountMsg(req, res) {
-  const { loggedinUser } = req
+  const { loggedInUser } = req
   try {
     const accountId = req.params.id
     const msg = {
       txt: req.body.txt,
-      by: loggedinUser
+      by: loggedInUser
     }
     const savedMsg = await accountService.addAccountMsg(accountId, msg)
     res.json(savedMsg)
@@ -99,7 +99,7 @@ export async function addAccountMsg(req, res) {
 }
 
 export async function removeAccountMsg(req, res) {
-  const { loggedinUser } = req
+  const { loggedInUser } = req
   try {
     const accountId = req.params.id
     const { msgId } = req.params

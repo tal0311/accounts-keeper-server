@@ -11,13 +11,13 @@ const mongoId = ObjectId.createFromHexString;
 
 const collectionName = 'account'
 
-async function query(filterBy = { txt: '', type: '' }, loggedinUser) {
+async function query(filterBy = { txt: '', type: '' }, loggedInUser) {
 
     try {
 
 
         const criteria = {
-            ownerId: loggedinUser._id
+            ownerId: loggedInUser._id
         }
 
         if (filterBy.txt) {
@@ -48,7 +48,7 @@ async function query(filterBy = { txt: '', type: '' }, loggedinUser) {
         }, {})
 
 
-        socketService.emitToUser({ type: 'account-types', data: types, userId: loggedinUser._id })
+        socketService.emitToUser({ type: 'account-types', data: types, userId: loggedInUser._id })
 
         return accounts
     } catch (err) {
