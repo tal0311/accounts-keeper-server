@@ -9,7 +9,7 @@ export async function getAccounts(req, res) {
       type: req.query.type || ''
     }
 
-    const {loggedInUser}= req
+    const { loggedInUser } = req
     const accounts = await accountService.query(filterBy, loggedInUser)
     res.json(accounts)
 
@@ -32,9 +32,9 @@ export async function getAccountById(req, res) {
 
 export async function addAccount(req, res) {
   const { loggedInUser } = req
-
   try {
-    const account = req.body
+    const { accountTitle, type, username, password, notes, icon, } = req.body
+    const account = { accountTitle, type: type.toLowerCase(), username, password, notes, icon, }
     account.ownerId = loggedInUser._id
     console.log('account:', account);
     const addedAccount = await accountService.add(account)
@@ -48,7 +48,8 @@ export async function addAccount(req, res) {
 
 export async function updateAccount(req, res) {
   try {
-    const account = req.body
+    const { _id, accountTitle, type, username, password, notes, icon, } = req.body
+    const account = { _id, accountTitle, type: type.toLowerCase(), username, password, notes, icon, }
     const updatedAccount = await accountService.update(account)
     res.json(updatedAccount)
   } catch (err) {
@@ -63,8 +64,8 @@ export async function removeAccount(req, res) {
     const accountId = req.params.id
     const { loggedInUser } = req
 
-    const account= await accountService.getById(accountId)
-    
+    const account = await accountService.getById(accountId)
+
 
     if (loggedInUser._id !== account.ownerId) {
       return res.status(401).send('Not Authenticated')
