@@ -36,7 +36,7 @@ export async function addAccount(req, res) {
     const { accountTitle, type, username, password, notes, icon, } = req.body
     const account = { accountTitle, type: type.toLowerCase(), username, password, notes, icon, }
     account.ownerId = loggedInUser._id
-    console.log('account:', account);
+    
     const addedAccount = await accountService.add(account)
     res.json(account)
   } catch (err) {
