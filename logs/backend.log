@@ -379,3 +379,6 @@
 16.8.2024, 18:34:26 - INFO - Sample Logger Middleware (userId: 669e950e7ba9a3aaf83fc959)
 16.8.2024, 18:34:26 - DEBUG - Getting Accounts: | {"txt":"","type":"all","sortBy":{"key":"name","order":"1"}} (userId: 669e950e7ba9a3aaf83fc959)
 16.8.2024, 18:34:26 - INFO - Emiting event: account-types to user: 669e950e7ba9a3aaf83fc959 socket [id: ljKZZzGuf7VeEPZQAAAD] (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 18:35:20 - INFO - Server is running on port: 3030 
+16.8.2024, 18:35:21 - INFO - New connected socket [id: 2dB4q6UQxdSghNYiAAAB] 
+16.8.2024, 18:35:21 - INFO - New connected socket [id: OYt43uIgWq78aXQOAAAD] 
