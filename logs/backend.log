@@ -20,3 +20,132 @@
 16.8.2024, 17:32:14 - INFO - No active socket for user: 669e950e7ba9a3aaf83fc959 (userId: 669e950e7ba9a3aaf83fc959)
 16.8.2024, 17:32:14 - INFO - Setting socket for user - ID: 669e950e7ba9a3aaf83fc959 for socket [id: ZE-YfuQv02lYmI79AAAH] 
 16.8.2024, 17:32:14 - INFO - Setting socket for user - ID: 669e950e7ba9a3aaf83fc959 for socket [id: ZE-YfuQv02lYmI79AAAH] 
+16.8.2024, 17:48:46 - INFO - Server is running on port: 3030 
+16.8.2024, 17:48:50 - INFO - New connected socket [id: EhJ31SIRL3jHQX7WAAAB] 
+16.8.2024, 17:48:51 - INFO - New connected socket [id: vv_Lr5NTHOmBmYjwAAAD] 
+16.8.2024, 17:48:53 - INFO - Socket disconnected [id: undefined] 
+16.8.2024, 17:48:53 - INFO - Socket disconnected [id: undefined] 
+16.8.2024, 17:48:54 - INFO - Sample Logger Middleware (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:48:54 - DEBUG - Getting Accounts: | {"txt":"","type":"","sortBy":{"key":"name","order":"1"}} (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:48:54 - INFO - New connected socket [id: RXc9JtjqviFoHDTqAAAG] 
+16.8.2024, 17:48:54 - INFO - New connected socket [id: -ff-9oqwfde2S-LlAAAH] 
+16.8.2024, 17:48:54 - INFO - Setting socket for user - ID: 669e950e7ba9a3aaf83fc959 for socket [id: -ff-9oqwfde2S-LlAAAH] 
+16.8.2024, 17:48:54 - INFO - Setting socket for user - ID: 669e950e7ba9a3aaf83fc959 for socket [id: -ff-9oqwfde2S-LlAAAH] 
+16.8.2024, 17:48:56 - INFO - Emiting event: account-types to user: 669e950e7ba9a3aaf83fc959 socket [id: -ff-9oqwfde2S-LlAAAH] (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:48:56 - INFO - Sample Logger Middleware (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:48:56 - DEBUG - Getting Accounts: | {"txt":"","type":"","sortBy":{"key":"name","order":"1"}} (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:48:56 - INFO - Emiting event: account-types to user: 669e950e7ba9a3aaf83fc959 socket [id: -ff-9oqwfde2S-LlAAAH] (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:48:58 - INFO - Socket disconnected [id: undefined] 
+16.8.2024, 17:48:58 - INFO - Socket disconnected [id: undefined] 
+16.8.2024, 17:48:59 - INFO - Sample Logger Middleware (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:48:59 - DEBUG - Getting Accounts: | {"txt":"","type":"","sortBy":{"key":"name","order":"1"}} (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:48:59 - INFO - New connected socket [id: dCwDTTrYCZZ_GbKDAAAK] 
+16.8.2024, 17:48:59 - INFO - New connected socket [id: 6F9pTYildTy_oNn_AAAL] 
+16.8.2024, 17:48:59 - INFO - No active socket for user: 669e950e7ba9a3aaf83fc959 (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:48:59 - INFO - Sample Logger Middleware (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:48:59 - DEBUG - Getting Accounts: | {"txt":"","type":"","sortBy":{"key":"name","order":"1"}} (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:48:59 - INFO - No active socket for user: 669e950e7ba9a3aaf83fc959 (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:48:59 - INFO - Setting socket for user - ID: 669e950e7ba9a3aaf83fc959 for socket [id: 6F9pTYildTy_oNn_AAAL] 
+16.8.2024, 17:48:59 - INFO - Setting socket for user - ID: 669e950e7ba9a3aaf83fc959 for socket [id: 6F9pTYildTy_oNn_AAAL] 
+16.8.2024, 17:50:35 - INFO - Sample Logger Middleware (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:50:35 - DEBUG - Getting Accounts: | {"txt":"","type":"","sortBy":{"key":"name","order":"1"}} (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:50:35 - INFO - New connected socket [id: XlXJxF4h-ht674tZAAAO] 
+16.8.2024, 17:50:35 - INFO - New connected socket [id: ydTPkRpbl5LgDJG0AAAP] 
+16.8.2024, 17:50:35 - INFO - Emiting event: account-types to user: 669e950e7ba9a3aaf83fc959 socket [id: 6F9pTYildTy_oNn_AAAL] (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:50:35 - INFO - Setting socket for user - ID: 669e950e7ba9a3aaf83fc959 for socket [id: XlXJxF4h-ht674tZAAAO] 
+16.8.2024, 17:50:35 - INFO - Setting socket for user - ID: 669e950e7ba9a3aaf83fc959 for socket [id: ydTPkRpbl5LgDJG0AAAP] 
+16.8.2024, 17:51:06 - INFO - Socket disconnected [id: undefined] 
+16.8.2024, 17:51:06 - INFO - Socket disconnected [id: undefined] 
+16.8.2024, 17:51:06 - INFO - Socket disconnected [id: undefined] 
+16.8.2024, 17:51:06 - INFO - Socket disconnected [id: undefined] 
+16.8.2024, 17:51:06 - INFO - Sample Logger Middleware (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:06 - DEBUG - Getting Accounts: | {"txt":"","type":"","sortBy":{"key":"name","order":"1"}} (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:06 - INFO - New connected socket [id: Ro6-SzW4sD6ZytRtAAAS] 
+16.8.2024, 17:51:06 - INFO - New connected socket [id: Kf2vfpSmnsdt2qkqAAAT] 
+16.8.2024, 17:51:06 - INFO - No active socket for user: 669e950e7ba9a3aaf83fc959 (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:06 - INFO - Sample Logger Middleware (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:06 - DEBUG - Getting Accounts: | {"txt":"","type":"","sortBy":{"key":"name","order":"1"}} (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:06 - INFO - Setting socket for user - ID: 669e950e7ba9a3aaf83fc959 for socket [id: Kf2vfpSmnsdt2qkqAAAT] 
+16.8.2024, 17:51:06 - INFO - Setting socket for user - ID: 669e950e7ba9a3aaf83fc959 for socket [id: Kf2vfpSmnsdt2qkqAAAT] 
+16.8.2024, 17:51:06 - INFO - Emiting event: account-types to user: 669e950e7ba9a3aaf83fc959 socket [id: Kf2vfpSmnsdt2qkqAAAT] (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:16 - INFO - Sample Logger Middleware (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:16 - DEBUG - Getting Accounts: | {"txt":"","type":"","sortBy":{"key":"name","order":"1"}} (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:16 - INFO - New connected socket [id: 4AjKF-Kto-TbmkESAAAW] 
+16.8.2024, 17:51:16 - INFO - New connected socket [id: 8DlBED2hlCC24gw5AAAX] 
+16.8.2024, 17:51:16 - INFO - Emiting event: account-types to user: 669e950e7ba9a3aaf83fc959 socket [id: Kf2vfpSmnsdt2qkqAAAT] (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:16 - INFO - Setting socket for user - ID: 669e950e7ba9a3aaf83fc959 for socket [id: 4AjKF-Kto-TbmkESAAAW] 
+16.8.2024, 17:51:16 - INFO - Setting socket for user - ID: 669e950e7ba9a3aaf83fc959 for socket [id: 8DlBED2hlCC24gw5AAAX] 
+16.8.2024, 17:51:23 - INFO - Socket disconnected [id: undefined] 
+16.8.2024, 17:51:23 - INFO - Socket disconnected [id: undefined] 
+16.8.2024, 17:51:23 - INFO - Socket disconnected [id: undefined] 
+16.8.2024, 17:51:23 - INFO - Socket disconnected [id: undefined] 
+16.8.2024, 17:51:23 - INFO - Sample Logger Middleware (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:23 - DEBUG - Getting Accounts: | {"txt":"","type":"","sortBy":{"key":"name","order":"1"}} (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:23 - INFO - New connected socket [id: V7WSfcuarO71Lb4EAAAa] 
+16.8.2024, 17:51:23 - INFO - New connected socket [id: bnoi-lZvJjhvZfPiAAAb] 
+16.8.2024, 17:51:23 - INFO - No active socket for user: 669e950e7ba9a3aaf83fc959 (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:23 - INFO - Sample Logger Middleware (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:23 - DEBUG - Getting Accounts: | {"txt":"","type":"","sortBy":{"key":"name","order":"1"}} (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:23 - INFO - No active socket for user: 669e950e7ba9a3aaf83fc959 (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:23 - INFO - Setting socket for user - ID: 669e950e7ba9a3aaf83fc959 for socket [id: bnoi-lZvJjhvZfPiAAAb] 
+16.8.2024, 17:51:23 - INFO - Setting socket for user - ID: 669e950e7ba9a3aaf83fc959 for socket [id: bnoi-lZvJjhvZfPiAAAb] 
+16.8.2024, 17:51:26 - INFO - Socket disconnected [id: undefined] 
+16.8.2024, 17:51:26 - INFO - Socket disconnected [id: undefined] 
+16.8.2024, 17:51:26 - INFO - Sample Logger Middleware (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:26 - DEBUG - Getting Accounts: | {"txt":"","type":"","sortBy":{"key":"name","order":"1"}} (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:26 - INFO - New connected socket [id: H9fWxtmeJsIwUH8fAAAe] 
+16.8.2024, 17:51:26 - INFO - New connected socket [id: _nhbarn-pWzC8HRlAAAf] 
+16.8.2024, 17:51:26 - INFO - No active socket for user: 669e950e7ba9a3aaf83fc959 (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:26 - INFO - Setting socket for user - ID: 669e950e7ba9a3aaf83fc959 for socket [id: _nhbarn-pWzC8HRlAAAf] 
+16.8.2024, 17:51:26 - INFO - Setting socket for user - ID: 669e950e7ba9a3aaf83fc959 for socket [id: _nhbarn-pWzC8HRlAAAf] 
+16.8.2024, 17:51:27 - INFO - Sample Logger Middleware (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:27 - DEBUG - Getting Accounts: | {"txt":"","type":"","sortBy":{"key":"name","order":"1"}} (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:27 - INFO - Emiting event: account-types to user: 669e950e7ba9a3aaf83fc959 socket [id: _nhbarn-pWzC8HRlAAAf] (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:30 - INFO - Socket disconnected [id: undefined] 
+16.8.2024, 17:51:30 - INFO - Socket disconnected [id: undefined] 
+16.8.2024, 17:51:30 - INFO - Sample Logger Middleware (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:30 - DEBUG - Getting Accounts: | {"txt":"","type":"","sortBy":{"key":"name","order":"1"}} (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:30 - INFO - New connected socket [id: MqIIEddqX3qiSL7lAAAi] 
+16.8.2024, 17:51:30 - INFO - New connected socket [id: jg4yXfp71adRZrRSAAAj] 
+16.8.2024, 17:51:30 - INFO - No active socket for user: 669e950e7ba9a3aaf83fc959 (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:30 - DEBUG - Getting Accounts: | {"txt":"","type":"","sortBy":{"key":"name","order":"1"}} (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:30 - INFO - Sample Logger Middleware (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:30 - INFO - No active socket for user: 669e950e7ba9a3aaf83fc959 (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:30 - INFO - Setting socket for user - ID: 669e950e7ba9a3aaf83fc959 for socket [id: jg4yXfp71adRZrRSAAAj] 
+16.8.2024, 17:51:30 - INFO - Setting socket for user - ID: 669e950e7ba9a3aaf83fc959 for socket [id: jg4yXfp71adRZrRSAAAj] 
+16.8.2024, 17:51:35 - INFO - Socket disconnected [id: undefined] 
+16.8.2024, 17:51:35 - INFO - Socket disconnected [id: undefined] 
+16.8.2024, 17:51:35 - INFO - Sample Logger Middleware (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:35 - DEBUG - Getting Accounts: | {"txt":"","type":"","sortBy":{"key":"name","order":"1"}} (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:35 - INFO - New connected socket [id: MgOjA6Dm3KNIqyT3AAAm] 
+16.8.2024, 17:51:35 - INFO - New connected socket [id: jG61TV9U1Mzyl6TnAAAn] 
+16.8.2024, 17:51:35 - INFO - No active socket for user: 669e950e7ba9a3aaf83fc959 (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:35 - INFO - Setting socket for user - ID: 669e950e7ba9a3aaf83fc959 for socket [id: jG61TV9U1Mzyl6TnAAAn] 
+16.8.2024, 17:51:35 - INFO - Setting socket for user - ID: 669e950e7ba9a3aaf83fc959 for socket [id: jG61TV9U1Mzyl6TnAAAn] 
+16.8.2024, 17:51:36 - INFO - Sample Logger Middleware (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:36 - DEBUG - Getting Accounts: | {"txt":"","type":"","sortBy":{"key":"name","order":"1"}} (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:36 - INFO - Emiting event: account-types to user: 669e950e7ba9a3aaf83fc959 socket [id: jG61TV9U1Mzyl6TnAAAn] (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:55 - INFO - Socket disconnected [id: undefined] 
+16.8.2024, 17:51:55 - INFO - Socket disconnected [id: undefined] 
+16.8.2024, 17:51:55 - DEBUG - Getting Accounts: | {"txt":"","type":"","sortBy":{"key":"name","order":"1"}} (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:55 - INFO - Sample Logger Middleware (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:55 - INFO - New connected socket [id: zW2mYN_2G5H0mSEyAAAq] 
+16.8.2024, 17:51:55 - INFO - New connected socket [id: Oz7SvnJJw_oyj5AiAAAr] 
+16.8.2024, 17:51:55 - INFO - No active socket for user: 669e950e7ba9a3aaf83fc959 (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:55 - INFO - Sample Logger Middleware (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:55 - DEBUG - Getting Accounts: | {"txt":"","type":"","sortBy":{"key":"name","order":"1"}} (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:56 - INFO - No active socket for user: 669e950e7ba9a3aaf83fc959 (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:51:56 - INFO - Setting socket for user - ID: 669e950e7ba9a3aaf83fc959 for socket [id: Oz7SvnJJw_oyj5AiAAAr] 
+16.8.2024, 17:51:56 - INFO - Setting socket for user - ID: 669e950e7ba9a3aaf83fc959 for socket [id: Oz7SvnJJw_oyj5AiAAAr] 
+16.8.2024, 17:52:00 - INFO - Socket disconnected [id: undefined] 
+16.8.2024, 17:52:00 - INFO - Socket disconnected [id: undefined] 
+16.8.2024, 17:52:00 - INFO - Sample Logger Middleware (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:52:00 - DEBUG - Getting Accounts: | {"txt":"","type":"","sortBy":{"key":"name","order":"1"}} (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:52:00 - INFO - New connected socket [id: HhJZ6hPqSTvE6mjkAAAu] 
+16.8.2024, 17:52:00 - INFO - New connected socket [id: fPPhYC_oqa1zk9OKAAAv] 
+16.8.2024, 17:52:01 - INFO - No active socket for user: 669e950e7ba9a3aaf83fc959 (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:52:01 - INFO - Sample Logger Middleware (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:52:01 - DEBUG - Getting Accounts: | {"txt":"","type":"","sortBy":{"key":"name","order":"1"}} (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:52:01 - INFO - No active socket for user: 669e950e7ba9a3aaf83fc959 (userId: 669e950e7ba9a3aaf83fc959)
+16.8.2024, 17:52:01 - INFO - Setting socket for user - ID: 669e950e7ba9a3aaf83fc959 for socket [id: fPPhYC_oqa1zk9OKAAAv] 
+16.8.2024, 17:52:01 - INFO - Setting socket for user - ID: 669e950e7ba9a3aaf83fc959 for socket [id: fPPhYC_oqa1zk9OKAAAv] 
